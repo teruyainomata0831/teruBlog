@@ -6,7 +6,7 @@ body {
   background-color: #eeeeee;
 }
 
-ul, p, li, a {
+ul, p, li, a, h1, h2 {
   margin: 0;
   padding: 0;
 }
@@ -69,12 +69,77 @@ header {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
   padding-right: 15px;
 }
 
 #nav-drawer {
   display: none;
+}
+
+/*固定ページ*/
+
+#content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.col-md-9 {
+  background: #fff;
+  margin-top: 50px;
+  text-align: center;
+  padding: 0;
+  padding-bottom: 70px;
+  width: 70%;
+}
+
+p {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-bottom: 60px;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.button {
+  margin: 0 auto;
+}
+
+.button a {
+  border: 1px solid #909090;
+  color: #7B7B7B;
+  padding: 15px 33px 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #7B7B7B;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+.wp-block-image {
+  margin: 0;
+}
+
+.wp-block-image img {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.time {
+  text-align: center;
+  font-size: 13px;
+  color: #7B7B7B;
+  padding-top: 60px;
+  margin-bottom: 10px;
 }
 
 /*フッター*/
@@ -191,5 +256,27 @@ footer p {
     transform: translateX(0%);
     /*中身を表示*/
     box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
+  }
+  footer p {
+    font-size: 10px;
+    word-break: break-all;
+    line-height: 3.5;
+  }
+  /*固定ページ*/
+  #content {
+    width: 100%;
+  }
+  .col-md-9 {
+    width: 100%;
+  }
+  .container {
+    padding: 0;
+  }
+  :-webkit-any(article, aside, nav, section) h1 {
+    font-size: 18px;
+  }
+  .wp-block-image img {
+    width: 100%;
+    height: auto;
   }
 }
