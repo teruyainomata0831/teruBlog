@@ -74,7 +74,7 @@ header {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
+  padding-right: 30px;
 }
 
 #nav-drawer {
@@ -174,6 +174,7 @@ footer p {
   padding-bottom: 15px;
   color: #fff;
   font-size: 12px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
@@ -282,6 +283,8 @@ footer p {
   /*固定ページ*/
   #content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .col-md-9 {
     width: 100%;
