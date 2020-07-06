@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>teruBlog</title>
   <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/mystyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/mystyle.css">
   <?php wp_head(); ?>
 </head>
 
@@ -21,13 +22,15 @@
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>
+          <li><a href="">Skill</a></li>
+          <li><a href="">Travel</a></li>
           <li><a href="">Contact</a></li>
-          <li><a href="">Dropdown<span class="caret"></span></a></li>
+          <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
         </ul>
       </div>
       <ul class="headerRight">
-        <li><a href="https://www.instagram.com/teruyainomata/"><i class="fab fa-instagram">Instagram</i></a></li>
-        <li><a href="https://twitter.com/okuman1117"><i class="fab fa-twitter-square">twitter</i></a></li>
+        <li><a href="https://www.instagram.com/teruyainomata/"><i class="fab fa-instagram"> Instagram</i></a></li>
+        <li><a href="https://twitter.com/okuman1117"><i class="fab fa-twitter-square"> twitter</i></a></li>
       </ul>
       <div id="nav-drawer">
         <input id="nav-input" type="checkbox" class="nav-unshown">

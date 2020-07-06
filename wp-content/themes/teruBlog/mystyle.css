@@ -6,10 +6,7 @@ body {
   background-color: #eeeeee;
 }
 
-ul,
-p,
-li,
-a {
+ul, p, li, a {
   margin: 0;
   padding: 0;
 }
@@ -50,6 +47,7 @@ header {
   text-align: center;
   margin: 0;
   line-height: 2;
+  font-family: 'Lato', sans-serif;
 }
 
 .headerLeft {
@@ -78,6 +76,8 @@ header {
 #nav-drawer {
   display: none;
 }
+
+/*フッター*/
 
 footer {
   text-align: center;
@@ -126,9 +126,7 @@ footer p {
     vertical-align: sub;
   }
   /*ハンバーガーアイコンをCSSだけで表現*/
-  #nav-open span,
-  #nav-open span:before,
-  #nav-open span:after {
+  #nav-open span, #nav-open span:before, #nav-open span:after {
     position: absolute;
     height: 2px;
     /*線の太さ*/
@@ -183,12 +181,12 @@ footer p {
     /*左に隠しておく*/
   }
   /*チェックが入ったらもろもろ表示*/
-  #nav-input:checked ~ #nav-close {
+  #nav-input:checked~#nav-close {
     display: block;
     /*カバーを表示*/
     opacity: 0.5;
   }
-  #nav-input:checked ~ #nav-content {
+  #nav-input:checked~#nav-content {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     /*中身を表示*/
