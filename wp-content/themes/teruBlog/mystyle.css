@@ -9,6 +9,11 @@ body {
 ul, p, li, a, h1, h2 {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 header {
@@ -81,15 +86,18 @@ header {
 #content {
   margin: 0 auto;
   width: 90%;
+  display: flex;
 }
 
 .col-md-9 {
   background: #fff;
   margin-top: 50px;
+  margin-right: 0 !important;
   text-align: center;
   padding: 0;
   padding-bottom: 70px;
-  width: 70%;
+  /* width: 70%; */
+  height: fit-content;
 }
 
 p {
@@ -140,6 +148,15 @@ p {
   color: #7B7B7B;
   padding-top: 60px;
   margin-bottom: 10px;
+}
+
+/*sidebar*/
+
+.col-md-3 {
+  width: 100%;
+  background: #fff;
+  margin-top: 50px;
+  padding-left: 15px;
 }
 
 /*フッター*/
