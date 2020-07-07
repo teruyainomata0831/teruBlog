@@ -6,7 +6,12 @@ body {
   background-color: #eeeeee;
 }
 
-ul, p, li, a, h1, h2 {
+ul,
+p,
+li,
+a,
+h1,
+h2 {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -16,6 +21,8 @@ ul, p, li, a, h1, h2 {
 ul {
   list-style: none;
   margin-bottom: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 header {
@@ -34,6 +41,7 @@ header {
 
 .header_in ul {
   margin-bottom: 0;
+  padding: 0;
 }
 
 .header_in li {
@@ -58,7 +66,7 @@ header {
   text-align: center;
   margin: 0;
   line-height: 2;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .headerLeft {
@@ -121,7 +129,7 @@ p {
 
 .button a {
   border: 1px solid #909090;
-  color: #7B7B7B;
+  color: #7b7b7b;
   padding: 15px 33px 14px;
   text-align: center;
   text-decoration: none;
@@ -130,7 +138,7 @@ p {
 :-webkit-any(article, aside, nav, section) h1 {
   padding-right: 40px;
   padding-left: 40px;
-  color: #7B7B7B;
+  color: #7b7b7b;
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 10px;
@@ -156,7 +164,7 @@ p {
 .time {
   text-align: center;
   font-size: 13px;
-  color: #7B7B7B;
+  color: #7b7b7b;
   padding-top: 60px;
   margin-bottom: 10px;
 }
@@ -169,22 +177,16 @@ p {
 
 #sidebar ul {
   margin-bottom: 0;
+  padding: 0;
 }
 
 .col-md-3 {
   width: 100%;
-  background: #fff;
   margin-top: 50px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 40px;
   text-align: center;
-}
-
-form {
-  margin-bottom: 50px;
-  width: 100%;
-  margin-top: 50px;
 }
 
 /*フッター*/
@@ -239,7 +241,9 @@ footer p {
     vertical-align: sub;
   }
   /*ハンバーガーアイコンをCSSだけで表現*/
-  #nav-open span, #nav-open span:before, #nav-open span:after {
+  #nav-open span,
+  #nav-open span:before,
+  #nav-open span:after {
     position: absolute;
     height: 2px;
     /*線の太さ*/
@@ -294,12 +298,12 @@ footer p {
     /*左に隠しておく*/
   }
   /*チェックが入ったらもろもろ表示*/
-  #nav-input:checked~#nav-close {
+  #nav-input:checked ~ #nav-close {
     display: block;
     /*カバーを表示*/
     opacity: 0.5;
   }
-  #nav-input:checked~#nav-content {
+  #nav-input:checked ~ #nav-content {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     /*中身を表示*/
