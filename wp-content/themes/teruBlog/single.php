@@ -1,7 +1,5 @@
-<?php get_header(); ?>
-
 <section id="content">
-  <div id="content-wrap" class="container">
+  <div id="content-wrap" class="container" style="width: 65%">
     <div id="main" class="col-md-9">
       <div class="time">
         <?php the_time('Y/m/d'); ?>
@@ -25,4 +23,3 @@
   </div>
   <?php get_sidebar(); ?>
 </section>
-<?php get_footer(); ?>

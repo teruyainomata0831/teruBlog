@@ -89,7 +89,6 @@ header {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
-  width: 220%;
 }
 
 #nav-drawer {
@@ -157,6 +156,11 @@ p {
   background-repeat: no-repeat;
 }
 
+.alignnone,
+.wp-image-907 {
+  max-width: 100% !important;
+}
+
 .wp-block-image figcaption {
   display: none !important;
 }
@@ -169,6 +173,13 @@ p {
   margin-bottom: 10px;
 }
 
+pre {
+  white-space: normal;
+}
+
+.size-full {
+  max-width: 100%;
+}
 /*sidebar*/
 
 .sidebar {
@@ -180,13 +191,91 @@ p {
   padding: 0;
 }
 
-.col-md-3 {
-  width: 100%;
+#sidebar div {
   margin-top: 50px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 40px;
   text-align: center;
+}
+
+.primary-sidebar > div {
+  background-color: #fff !important;
+}
+
+#sidebar .image {
+  margin: 40px auto 0;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px !important;
+}
+
+.user {
+  background-color: #fff;
+}
+
+.user_name {
+  text-align: center;
+  font-family: "Avenir-Next";
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+hr {
+  width: 20%;
+  border: 1px solid #374ca5;
+}
+
+.user_contact {
+  padding: 0 !important;
+  text-align: right !important;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.Introduction {
+  color: #7b7b7b;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.user_img {
+  width: 130px;
+  height: 130px;
+  margin: 40px auto 0;
+  border-radius: 50%;
+}
+
+input {
+  height: 60px;
+  background: #f5f5f5;
+  border: 1px solid #ebebeb;
+}
+
+.search {
+  background-color: #fff;
+  position: relative;
+}
+
+.searchBox {
+  padding-top: 35px;
+  padding-bottom: 0 !important;
+  display: flex;
+}
+
+.fa-search {
+  position: absolute;
+  top: 65px;
+  right: 50px;
+}
+
+.form-control {
+  width: 100%;
+  border-radius: 4px;
+  padding: 6px 12px;
 }
 
 /*フッター*/
@@ -325,7 +414,7 @@ footer p {
   }
   .container {
     padding: 0;
-    width: 100%;
+    width: 100% !important;
   }
   :-webkit-any(article, aside, nav, section) h1 {
     font-size: 18px;
@@ -341,5 +430,15 @@ footer p {
   .col-md-3 {
     width: 100%;
     padding: 0;
+  }
+  .alignnone,
+  .wp-image-907,
+  .size-full,
+  .wp-image-906,
+  .aligncenter {
+    width: 100% !important;
+  }
+  pre {
+    white-space: normal;
   }
 }
