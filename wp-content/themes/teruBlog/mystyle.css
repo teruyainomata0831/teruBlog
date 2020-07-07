@@ -10,10 +10,12 @@ ul, p, li, a, h1, h2 {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  word-break: break-all;
 }
 
 ul {
   list-style: none;
+  margin-bottom: 60px;
 }
 
 header {
@@ -28,6 +30,10 @@ header {
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
+}
+
+.header_in ul {
+  margin-bottom: 0;
 }
 
 .header_in li {
@@ -75,6 +81,7 @@ header {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
+  width: 220%;
 }
 
 #nav-drawer {
@@ -142,6 +149,10 @@ p {
   background-repeat: no-repeat;
 }
 
+.wp-block-image figcaption {
+  display: none !important;
+}
+
 .time {
   text-align: center;
   font-size: 13px;
@@ -152,11 +163,22 @@ p {
 
 /*sidebar*/
 
+.sidebar {
+  text-align: center;
+}
+
+#sidebar ul {
+  margin-bottom: 0;
+}
+
 .col-md-3 {
   width: 100%;
   background: #fff;
   margin-top: 50px;
   padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 form {
@@ -202,6 +224,7 @@ footer p {
     background-color: #fff;
     color: #b2b2b2;
   }
+  /*ハンバーガー*/
   #nav-drawer {
     position: relative;
     display: block;
@@ -298,6 +321,7 @@ footer p {
   }
   .container {
     padding: 0;
+    width: 100%;
   }
   :-webkit-any(article, aside, nav, section) h1 {
     font-size: 18px;
@@ -305,5 +329,13 @@ footer p {
   .wp-block-image img {
     width: 100%;
     height: auto;
+  }
+  .wp-block-image figcaption {
+    display: none !important;
+  }
+  /*sidebar*/
+  .col-md-3 {
+    width: 100%;
+    padding: 0;
   }
 }

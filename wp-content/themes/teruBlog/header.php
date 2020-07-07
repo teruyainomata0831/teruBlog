@@ -20,11 +20,11 @@
           <a>teruBlog</a>
         </div>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Skill</a></li>
-          <li><a href="">Travel</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skill</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="page-contact.php">Contact</a></li>
           <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
         </ul>
       </div>
