@@ -159,6 +159,12 @@ p {
   padding-left: 15px;
 }
 
+form {
+  margin-bottom: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+
 /*フッター*/
 
 footer {
@@ -172,6 +178,7 @@ footer {
 footer p {
   padding-top: 20px;
   padding-bottom: 15px;
+  margin-bottom: 0;
   color: #fff;
   font-size: 12px;
   text-align: center;
