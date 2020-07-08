@@ -326,17 +326,39 @@ footer p {
 }
 
 aside {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: left;
+  width: 100%;
   background-color: #fff;
+  margin-top: 50px;
+}
+
+.footerBox {
+  width: 80%;
+  display: flex;
+  text-align: left;
+  margin: 0 auto;
+}
+
+aside p {
+  text-align: left;
+  color: #b2b2b2;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 aside ul {
   padding-top: 50px;
   width: 33.3333333333%;
   margin-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.widgettitle {
+  font-weight: 600;
+  color: #272727;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+  font-family: Avenir, Noto, Hiragino Sans, Helvetica, Arial, sans-serif;
 }
 
 /*お問い合わせ*/
