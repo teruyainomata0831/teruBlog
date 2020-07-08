@@ -28,8 +28,12 @@
             <section>
               <?php the_content(); ?>
             </section>
+          <?php endwhile; ?>
+        <?php else : ?>
+          <div class="error">
+            <p>お探しの記事は見つかりませんでした。</p>
+          </div>
         <?php
-          endwhile;
         endif;
         ?>
         <div class="button">
