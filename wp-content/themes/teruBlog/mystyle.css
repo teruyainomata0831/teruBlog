@@ -312,7 +312,6 @@ input {
 footer {
   text-align: center;
   background-color: #222222;
-  margin-top: 40px;
   height: 69px;
   line-height: 2.5;
 }
@@ -324,6 +323,20 @@ footer p {
   color: #fff;
   font-size: 12px;
   text-align: center;
+}
+
+aside {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  background-color: #fff;
+}
+
+aside ul {
+  padding-top: 50px;
+  width: 33.3333333333%;
+  margin-bottom: 40px;
 }
 
 /*お問い合わせ*/
