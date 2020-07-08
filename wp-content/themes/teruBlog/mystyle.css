@@ -351,6 +351,7 @@ aside ul {
   margin-bottom: 40px;
   padding-left: 0;
   padding-right: 0;
+  width: 100%;
 }
 
 aside hr {
@@ -359,6 +360,12 @@ aside hr {
 
 .textwidget li {
   border-top: dashed 1px #686868;
+}
+
+.textwidget a {
+  color: #b2b2b2;
+  line-height: 50px;
+  padding-left: 15px;
 }
 
 .textwidget li:last-child {
