@@ -430,6 +430,7 @@ aside hr {
   height: 38px;
   background-color: #fff;
   border: 1px solid #ccc;
+  margin-bottom: 40px;
 }
 
 ::placeholder {
@@ -608,5 +609,12 @@ aside hr {
   /*footer ウィジェット*/
   .footerBox {
     display: block;
+  }
+  aside ul {
+    margin-bottom: 0;
+  }
+  aside p {
+    margin-bottom: 0;
+    padding-bottom: 10px;
   }
 }
