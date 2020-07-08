@@ -5,8 +5,8 @@
         <a>teruBlog</a>
       </div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="/teruBlog">Home</a></li>
+        <li><a href="/teruBlog/post">Post</a></li>
         <li><a href="#">Skill</a></li>
         <li><a href="#">Travel</a></li>
         <li><a href="#">Contact</a></li>
