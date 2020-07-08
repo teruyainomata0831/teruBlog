@@ -197,6 +197,10 @@ pre {
   text-align: center;
 }
 
+#sidebar a {
+  color: #b2b2b2;
+}
+
 .primary-sidebar > div {
   background-color: #fff !important;
 }
@@ -223,13 +227,13 @@ pre {
 
 hr {
   width: 20%;
-  border: 1px solid #374ca5;
+  border: 1px solid #374ca5 !important;
 }
 
 .user_contact {
   padding: 0 !important;
   text-align: right !important;
-  color: #337ab7;
+  color: #337ab7 !important;
   text-decoration: none;
 }
 
@@ -297,6 +301,10 @@ input {
 .rpwwt-widget {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.rpwwt-post-title {
+  color: #b2b2b2;
 }
 
 /*フッター*/
@@ -516,6 +524,9 @@ footer p {
   #sidebar div {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .rpwwt-post-title {
+    color: #b2b2b2;
   }
   /*お問い合わせ*/
   .wpcf7-form {
