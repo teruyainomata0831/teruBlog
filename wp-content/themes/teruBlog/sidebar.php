@@ -9,7 +9,7 @@
         <a class="user_contact" href="#">コンサルタント依頼の詳細<i class="fa fa-angle-right"></i></a><br>
         <a class="user_contact" href="#">Web制作依頼の詳細<i class="fa fa-angle-right"></i></a><br>
         <a class="user_contact" href="#">ライティング依頼の詳細<i class="fa fa-angle-right"></i></a><br>
-        <a class="user_contact" href="#">お問い合わせ<i class="fa fa-angle-right"></i></a>
+        <a class="user_contact" href="/teruBlog/contact">お問い合わせ<i class="fa fa-angle-right"></i></a>
       </div>
     </div>
     <div class="search">

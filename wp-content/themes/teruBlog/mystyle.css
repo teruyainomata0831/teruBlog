@@ -513,4 +513,17 @@ footer p {
     padding-left: 15px;
     padding-right: 15px;
   }
+  /*お問い合わせ*/
+  .wpcf7-form {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .wpcf7-form-control.wpcf7-text,
+  .wpcf7-form-control.wpcf7-textarea {
+    width: auto;
+  }
+  .wpcf7-form-control.wpcf7-submit {
+    width: 50%;
+  }
 }
