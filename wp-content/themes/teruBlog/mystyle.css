@@ -360,6 +360,10 @@ footer p {
   border: 1px solid #ccc;
 }
 
+::placeholder {
+  padding: 5px;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
