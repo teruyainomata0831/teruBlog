@@ -318,6 +318,43 @@ footer p {
   text-align: center;
 }
 
+/*お問い合わせ*/
+
+.wpcf7-form p {
+  margin: 0;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*お問い合わせ text*/
+
+.wpcf7-form-control.wpcf7-text {
+  width: 356.86px;
+  height: 38px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/*お問い合わせ textarea*/
+
+.wpcf7-form-control.wpcf7-textarea {
+  width: 594.77px;
+  height: 120px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/*お問い合わせ submit*/
+
+.wpcf7-form-control.wpcf7-submit {
+  width: 129.05px;
+  height: 38px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;

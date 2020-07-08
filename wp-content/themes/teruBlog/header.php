@@ -9,7 +9,7 @@
         <li><a href="/teruBlog/post">Post</a></li>
         <li><a href="#">Skill</a></li>
         <li><a href="#">Travel</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/teruBlog/contact">Contact</a></li>
         <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
       </ul>
     </div>
