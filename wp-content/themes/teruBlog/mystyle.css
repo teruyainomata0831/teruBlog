@@ -343,6 +343,8 @@ aside p {
   color: #b2b2b2;
   padding-left: 0;
   padding-right: 0;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 aside ul {
@@ -358,8 +360,16 @@ aside hr {
   margin-left: 0;
 }
 
+.widget.widget_text > .textwidget p > a {
+  line-height: 0 !important;
+  padding: 0;
+  margin: 0;
+  color: #337ab7;
+}
+
 .textwidget li {
   border-top: dashed 1px #686868;
+  font-size: 12px;
 }
 
 .textwidget a {
@@ -596,4 +606,7 @@ aside hr {
     width: 50%;
   }
   /*footer ウィジェット*/
+  .footerBox {
+    display: block;
+  }
 }
