@@ -320,6 +320,11 @@ footer p {
 
 /*お問い合わせ*/
 
+.wpcf7 {
+  display: flex;
+  justify-content: center;
+}
+
 .wpcf7-form p {
   margin: 0;
   text-align: left;
