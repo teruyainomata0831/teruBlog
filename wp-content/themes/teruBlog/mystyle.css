@@ -353,6 +353,18 @@ aside ul {
   padding-right: 0;
 }
 
+aside hr {
+  margin-left: 0;
+}
+
+.textwidget li {
+  border-top: dashed 1px #686868;
+}
+
+.textwidget li:last-child {
+  border-bottom: dashed 1px #686868;
+}
+
 .widgettitle {
   font-weight: 600;
   color: #272727;
@@ -576,4 +588,5 @@ aside ul {
   .wpcf7-form-control.wpcf7-submit {
     width: 50%;
   }
+  /*footer ウィジェット*/
 }
