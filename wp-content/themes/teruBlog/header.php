@@ -2,7 +2,7 @@
   <div class="header_in">
     <div class="headerLeft">
       <div class="headertxt">
-        <a>teruBlog</a>
+        <a href="/teruBlog">teruBlog</a>
       </div>
       <ul>
         <li><a href="/teruBlog">Home</a></li>
@@ -22,7 +22,11 @@
       <label id="nav-open" for="nav-input"><span></span></label>
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
       <div id="nav-content">
-        <!-- ここに中身を入れる -->
+        <a href="/teruBlog">Home</a><br>
+        <a href="/teruBlog/post">Post</a><br>
+        <a href="#">Skill</a><br>
+        <a href="#">Travel</a><br>
+        <a href="/teruBlog/contact">Contact</a>
       </div>
     </div>
   </div>

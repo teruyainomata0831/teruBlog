@@ -70,6 +70,9 @@ header {
   font-family: "Lato", sans-serif;
 }
 
+.headertxt a {
+  color: #b2b2b2;
+}
 .headerLeft {
   display: flex;
 }
@@ -511,20 +514,34 @@ aside hr {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 9998;
     /*最前面に*/
     width: 90%;
     /*右側に隙間を作る*/
     max-width: 330px;
     /*最大幅*/
     height: 100%;
-    background: #fff;
+    width: 230px;
+    padding-left: 20px;
+    background: black;
     /*背景色*/
     transition: 0.3s ease-in-out;
     /*滑らかに表示*/
     -webkit-transform: translateX(-105%);
     transform: translateX(-105%);
     /*左に隠しておく*/
+  }
+  #nav-content a {
+    position: relative;
+    color: #b2b2b2;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    left: 0;
+    top: 3%;
+    z-index: 9999;
+    line-height: 3;
+    letter-spacing: 1px;
   }
   /*チェックが入ったらもろもろ表示*/
   #nav-input:checked ~ #nav-close {
