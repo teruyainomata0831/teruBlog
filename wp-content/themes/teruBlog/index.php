@@ -15,6 +15,13 @@
 <body>
   <?php get_header(); ?>
   <?php include('wp-content/themes/teruBlog/page.php'); ?>
+  <aside>
+    <div class="footerBox">
+      <ul><?php dynamic_sidebar('フッターウィジェット１'); ?></ul>
+      <ul><?php dynamic_sidebar('フッターウィジェット２'); ?></ul>
+      <ul><?php dynamic_sidebar('フッターウィジェット３'); ?></ul>
+    </div>
+  </aside>
   <?php get_footer(); ?>
   <?php wp_footer(); ?>
 </body>
