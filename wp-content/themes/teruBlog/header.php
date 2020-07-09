@@ -7,8 +7,8 @@
       <ul>
         <li><a href="/teruBlog">Home</a></li>
         <li><a href="/teruBlog/post">Post</a></li>
-        <li><a href="#">Skill</a></li>
-        <li><a href="#">Travel</a></li>
+        <li><a href="/teruBlog/skill">Skill</a></li>
+        <li><a href="/teruBlog/travel">Travel</a></li>
         <li><a href="/teruBlog/contact">Contact</a></li>
         <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
       </ul>
@@ -22,11 +22,11 @@
       <label id="nav-open" for="nav-input"><span></span></label>
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
       <div id="nav-content">
-        <a href="/teruBlog">Home</a><br>
-        <a href="/teruBlog/post">Post</a><br>
-        <a href="#">Skill</a><br>
-        <a href="#">Travel</a><br>
-        <a href="/teruBlog/contact">Contact</a>
+        <a href="/teruBlog"><i class="fas fa-home"></i>Home</a><br>
+        <a href="/teruBlog/post"><i class="fas fa-blog"></i>Post</a><br>
+        <a href="/teruBlog/skill"><i class="fas fa-code"></i>Skill</a><br>
+        <a href="/teruBlog/travel"><i class="fas fa-globe-europe"></i>Travel</a><br>
+        <a href="/teruBlog/contact"><i class="fas fa-mail-bulk"></i>Contact</a>
       </div>
     </div>
   </div>

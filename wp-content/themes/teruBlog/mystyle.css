@@ -73,6 +73,7 @@ header {
 .headertxt a {
   color: #b2b2b2;
 }
+
 .headerLeft {
   display: flex;
 }
@@ -98,6 +99,10 @@ header {
 }
 
 /*固定ページ*/
+
+figcaption {
+  display: none;
+}
 
 #content {
   margin: 0 auto;
@@ -543,6 +548,9 @@ aside hr {
     line-height: 3;
     letter-spacing: 1px;
   }
+  #nav-content i {
+    letter-spacing: 5px;
+  }
   /*チェックが入ったらもろもろ表示*/
   #nav-input:checked ~ #nav-close {
     display: block;
@@ -581,7 +589,7 @@ aside hr {
     height: auto;
   }
   figcaption {
-    font-size: 12px;
+    display: none;
   }
   /*sidebar*/
   .col-md-3 {
