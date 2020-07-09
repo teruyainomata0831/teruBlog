@@ -446,6 +446,10 @@ aside hr {
 }
 
 @media (max-width: 960px) {
+  .error p {
+    padding: 0;
+    text-align: center;
+  }
   .header_in {
     width: 100%;
   }

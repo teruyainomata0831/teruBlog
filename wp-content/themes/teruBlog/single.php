@@ -36,9 +36,10 @@
         <?php
         endif;
         ?>
-        <div class="button">
+        <!-- <div class="button">
           <a href="#">READ MORE</a>
-        </div>
+        </div> -->
+
       </div>
     </div>
     <?php get_sidebar(); ?>
