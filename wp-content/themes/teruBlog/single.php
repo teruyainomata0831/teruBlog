@@ -36,9 +36,6 @@
         <?php
         endif;
         ?>
-        <div class="button">
-          <a href="#">READ MORE</a>
-        </div>
       </div>
     </div>
     <?php get_sidebar(); ?>
