@@ -1,3 +1,4 @@
+<!-- Homeの内容が表示される -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -14,7 +15,6 @@
 
 <body>
   <?php get_header(); ?>
-  <?php include('wp-content/themes/teruBlog/page.php'); ?>
   <aside>
     <div class="footerBox">
       <ul><?php dynamic_sidebar('フッターウィジェット１'); ?></ul>

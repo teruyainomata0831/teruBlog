@@ -1,3 +1,4 @@
+<!-- postの内容が表示される -->
 <!DOCTYPE html>
 <html lang="ja">
 

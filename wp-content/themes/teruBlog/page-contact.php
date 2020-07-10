@@ -1,3 +1,4 @@
+<!-- お問い合わせが表示される場所 -->
 <!DOCTYPE html>
 <html lang="ja">
 

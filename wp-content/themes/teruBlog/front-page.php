@@ -1,3 +1,4 @@
+<!-- トップページ(投稿一覧が表示される) -->
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -14,7 +15,33 @@
 
 <body>
   <?php get_header(); ?>
-  <?php include('wp-content/themes/teruBlog/page.php'); ?>
+  <section id="content">
+    <div id="content-wrap" class="container" style="width: 70%">
+      <div id="main" class="col-md-9">
+        <div class="time">
+          <?php the_time('Y/m/d'); ?>
+        </div>
+        <?php
+        if (have_posts()) :
+          while (have_posts()) : the_post();
+        ?>
+            <h1><?php the_title(); ?></h1>
+            <section>
+              <?php the_content(); ?>
+            </section>
+          <?php endwhile; ?>
+        <?php else : ?>
+          <div class="error">
+            <p>お探しの記事は見つかりませんでした。</p>
+          </div>
+        <?php
+        endif;
+        ?>
+      </div>
+    </div>
+    <?php get_sidebar(); ?>
+  </section>
+  <?php get_sidebar(); ?>
   <aside>
     <div class="footerBox">
       <ul><?php dynamic_sidebar('フッターウィジェット１'); ?></ul>
