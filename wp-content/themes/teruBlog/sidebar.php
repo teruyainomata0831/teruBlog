@@ -1,7 +1,7 @@
 <!-- sidebar -->
 <div id="sidebar" class="col-md-3">
   <div class="user">
-    <img src="/wp-admin/images/inomata.jpeg" alt="猪股輝哉の画像">
+    <img class="user_img" src="wp-admin/images/inomata.jpeg" alt="猪股輝哉の画像">
     <h4 class="user_name">猪股輝哉</h4>
     <hr>
     <p class="Introduction">1999年11月17日 奈良県出身 2019年10月TECH::EXPERT受講→Web制作会社 現在2社目</p>
