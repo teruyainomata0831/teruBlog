@@ -637,3 +637,11 @@ aside hr {
     padding-bottom: 10px;
   }
 }
+
+@media (max-width: 320px) {
+  footer p {
+    padding-top: 15px;
+    padding-bottom: 0;
+    line-height: 2;
+  }
+}
