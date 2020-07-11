@@ -15,8 +15,7 @@
   </div>
   <div class="search">
     <div class="searchBox">
-      <input type="text" name="s" id="s" placeholder="Search for..." class="form-control">
-      <i class="fas fa-search"></i>
+      <?php get_search_form(); ?>
     </div>
   </div>
   <?php if (is_active_sidebar('sidebar')) : ?>

@@ -274,16 +274,8 @@ input {
   display: flex;
 }
 
-.fa-search {
-  position: absolute;
-  top: 65px;
-  right: 50px;
-}
-
-.form-control {
+.searchBox form {
   width: 100%;
-  border-radius: 4px;
-  padding: 6px 12px;
 }
 
 .rounded {
@@ -441,6 +433,40 @@ aside hr {
 
 #alpr {
   color: #b2b2b2;
+}
+
+/*検索フォーム*/
+
+.searchform {
+  position: relative;
+}
+
+.searchfield {
+  font-size: 14px;
+  width: 90%;
+  margin: 3px;
+  padding: 10px;
+  border: solid 1px #bbb;
+  border-radius: 4px;
+  background-color: #efefef;
+}
+
+.searchsubmit {
+  font-family: FontAwesome;
+  font-size: 1.4em;
+  position: absolute;
+  top: 0;
+  right: 8%;
+  margin-top: 10px;
+  padding: 0;
+  cursor: pointer;
+  color: #6297f5;
+  border: none;
+  background: transparent;
+}
+
+.searchsubmit:hover {
+  opacity: .6;
 }
 
 @media (max-width: 960px) {
