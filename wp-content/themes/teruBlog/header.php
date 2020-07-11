@@ -38,7 +38,7 @@
         <label id="nav-open" for="nav-input"><span></span></label>
         <label class="nav-unshown" id="nav-close" for="nav-input"></label>
         <div id="nav-content">
-          <a href="/teruBlog/home"><i class="fas fa-home"></i>Home</a><br>
+          <a href="/teruBlog"><i class="fas fa-home"></i>Home</a><br>
           <a href="/teruBlog/post"><i class="fas fa-blog"></i>Post</a><br>
           <a href="/teruBlog/skill"><i class="fas fa-code"></i>Skill</a><br>
           <a href="/teruBlog/travel"><i class="fas fa-globe-europe"></i>Travel</a><br>
