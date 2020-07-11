@@ -26,7 +26,6 @@
   </div>
   <?php get_sidebar(); ?>
 </section>
-<?php get_sidebar(); ?>
 <aside>
   <div class="footerBox">
     <ul><?php dynamic_sidebar('フッターウィジェット１'); ?></ul>
