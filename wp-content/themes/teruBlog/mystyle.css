@@ -435,6 +435,21 @@ aside hr {
   color: #b2b2b2;
 }
 
+.stepback {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stepback a {
+  color: #7F7F7F;
+  letter-spacing: 0.45px;
+  border: 1px solid #7F7F7F;
+  padding: 19px 20px 18px;
+  text-decoration: none;
+}
+
 /*検索フォーム*/
 
 .searchform {
