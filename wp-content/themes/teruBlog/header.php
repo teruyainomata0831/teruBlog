@@ -22,9 +22,9 @@
         </div>
         <ul>
           <li><a href="/teruBlog">Home</a></li>
-          <li><a href="/teruBlog/post">Post</a></li>
-          <li><a href="/teruBlog/skill">Skill</a></li>
-          <li><a href="/teruBlog/travel">Travel</a></li>
+          <li><a href="/teruBlog/category/post">Post</a></li>
+          <li><a href="/teruBlog/category/skill">Skill</a></li>
+          <li><a href="/teruBlog/category/travel">Travel</a></li>
           <li><a href="/teruBlog/contact">Contact</a></li>
           <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
         </ul>
