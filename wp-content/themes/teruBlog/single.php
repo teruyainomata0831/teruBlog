@@ -1,11 +1,11 @@
 <?php
 $post = $wp_query->post;
 if (in_category('post')) {
-  include(TEMPLATEPATH . '/single-post.php');
+  include(TEMPLATEPATH . '/teruBlog/category/post');
 } elseif (in_category('skill')) {
-  include(TEMPLATEPATH . '/single-skill.php');
+  include(TEMPLATEPATH . '/teruBlog/category/skill');
 } elseif (in_category('travel')) {
-  include(TEMPLATEPATH . '/single-travel.php');
+  include(TEMPLATEPATH . '/teruBlog/category/travel');
 } else {
   include(TEMPLATEPATH . '/index.php');
 }
