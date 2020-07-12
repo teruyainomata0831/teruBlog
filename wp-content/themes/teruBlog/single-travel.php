@@ -2,13 +2,13 @@
 <section id="content">
   <div id="content-wrap" class="container" style="width: 70%">
     <div id="main" class="col-md-9">
-      <div class="time">
-        <?php the_time('Y/m/d'); ?>
-      </div>
       <?php
       if (have_posts()) :
         while (have_posts()) : the_post();
       ?>
+          <div class="time">
+            <?php the_time('Y/m/d'); ?>
+          </div>
           <h1><?php the_title(); ?></h1>
           <section>
             <?php the_content(); ?>
