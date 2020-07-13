@@ -23,11 +23,19 @@
         <ul>
           <li><a href="/teruBlog">Home</a></li>
           <li><a href="/teruBlog/category/post">Post</a></li>
-          <li><a href="/teruBlog/category/skill">Skill</a></li>
-          <li><a href="/teruBlog/category/travel">Travel</a></li>
-          <li><a href="/teruBlog/contact">Contact</a></li>
-          <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
-        </ul>
+          <ul class="menu">
+            <li><a href="/teruBlog/category/skill">Skill</a>
+              <ul class="menu__second-level">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">WordPress</a></li>
+              </ul>
+            </li>
+            <li><a href="/teruBlog/category/travel">Travel</a></li>
+            <li><a href="/teruBlog/contact">Contact</a></li>
+            <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
+          </ul>
       </div>
       <ul class="headerRight">
         <li><a href="https://www.instagram.com/teruyainomata/"><i class="fab fa-instagram"> Instagram</i></a></li>
