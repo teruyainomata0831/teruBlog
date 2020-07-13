@@ -7,12 +7,7 @@ body {
   font-family: Noto, Hiragino Sans, Helvetica, Arial, sans-serif;
 }
 
-ul,
-p,
-li,
-a,
-h1,
-h2 {
+ul, p, li, a, h1, h2 {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -163,8 +158,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.alignnone,
-.wp-image-907 {
+.alignnone, .wp-image-907 {
   max-width: 100% !important;
 }
 
@@ -209,7 +203,7 @@ pre {
   color: #b2b2b2;
 }
 
-.primary-sidebar > div {
+.primary-sidebar>div {
   background-color: #fff !important;
 }
 
@@ -259,9 +253,6 @@ hr {
   height: 130px;
   margin: 40px auto 0;
   border-radius: 50%;
-  background-image: url(/wp-admin/images/inomata.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 input {
@@ -363,7 +354,7 @@ aside hr {
   margin-left: 0;
 }
 
-.widget.widget_text > .textwidget p > a {
+.widget.widget_text>.textwidget p>a {
   line-height: 0 !important;
   padding: 0;
   margin: 0;
@@ -531,9 +522,7 @@ aside hr {
     vertical-align: sub;
   }
   /*ハンバーガーアイコンをCSSだけで表現*/
-  #nav-open span,
-  #nav-open span:before,
-  #nav-open span:after {
+  #nav-open span, #nav-open span:before, #nav-open span:after {
     position: absolute;
     height: 2px;
     /*線の太さ*/
@@ -605,12 +594,12 @@ aside hr {
     letter-spacing: 5px;
   }
   /*チェックが入ったらもろもろ表示*/
-  #nav-input:checked ~ #nav-close {
+  #nav-input:checked~#nav-close {
     display: block;
     /*カバーを表示*/
     opacity: 0.5;
   }
-  #nav-input:checked ~ #nav-content {
+  #nav-input:checked~#nav-content {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     /*中身を表示*/
@@ -649,18 +638,13 @@ aside hr {
     width: 100%;
     padding: 0;
   }
-  .alignnone,
-  .wp-image-907,
-  .size-full,
-  .wp-image-906,
-  .aligncenter {
+  .alignnone, .wp-image-907, .size-full, .wp-image-906, .aligncenter {
     width: 100% !important;
   }
   pre {
     white-space: normal;
   }
-  .user,
-  .search {
+  .user, .search {
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -677,8 +661,7 @@ aside hr {
     padding-left: 0;
     padding-right: 0;
   }
-  .wpcf7-form-control.wpcf7-text,
-  .wpcf7-form-control.wpcf7-textarea {
+  .wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-textarea {
     width: auto;
   }
   .wpcf7-form-control.wpcf7-submit {
