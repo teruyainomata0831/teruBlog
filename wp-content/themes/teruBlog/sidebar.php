@@ -6,10 +6,9 @@
     <hr>
     <p class="Introduction">1999年11月17日 奈良県出身 2019年10月TECH::EXPERT受講→Web制作会社 現在2社目</p>
     <div class="user_contact">
-      <a class="user_contact" href="#">プロフィール詳細<i class="fa fa-angle-right"></i></a><br>
-      <a class="user_contact" href="#">コンサルタント依頼の詳細<i class="fa fa-angle-right"></i></a><br>
-      <a class="user_contact" href="#">Web制作依頼の詳細<i class="fa fa-angle-right"></i></a><br>
-      <a class="user_contact" href="#">ライティング依頼の詳細<i class="fa fa-angle-right"></i></a><br>
+      <a class="user_contact" href="/teruBlog/profile/profile-details/">プロフィール詳細<i class="fa fa-angle-right"></i></a><br>
+      <a class="user_contact" href="/teruBlog/web/web_request/">Web制作依頼の詳細<i class="fa fa-angle-right"></i></a><br>
+      <a class="user_contact" href="/teruBlog/writing/writing_request/">ライティング依頼の詳細<i class="fa fa-angle-right"></i></a><br>
       <a class="user_contact" href="/teruBlog/contact">お問い合わせ<i class="fa fa-angle-right"></i></a>
     </div>
   </div>

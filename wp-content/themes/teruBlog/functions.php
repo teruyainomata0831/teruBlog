@@ -19,5 +19,36 @@ function arphabet_widgets_init()
 	register_sidebar(array('name' => 'フッターウィジェット１'));
 	register_sidebar(array('name' => 'フッターウィジェット２'));
 	register_sidebar(array('name' => 'フッターウィジェット３'));
+
+	register_post_type('profile', [
+		'labels' => [
+			'name' => 'プロフィール',
+		],
+		'public' => true,
+		'has_archive' => false,
+		'hierarchival' => false,
+		'menu_position' => 5,
+		'menu_icon' => 'dashicons-businessman'
+	]);
+	register_post_type('web', [
+		'labels' => [
+			'name' => 'Web制作依頼',
+		],
+		'public' => true,
+		'has_archive' => false,
+		'hierarchival' => false,
+		'menu_position' => 5,
+		'menu_icon' => 'dashicons-welcome-view-site'
+	]);
+	register_post_type('writing', [
+		'labels' => [
+			'name' => 'ライティング依頼',
+		],
+		'public' => true,
+		'has_archive' => false,
+		'hierarchival' => false,
+		'menu_position' => 5,
+		'menu_icon' => 'dashicons-welcome-write-blog'
+	]);
 }
 add_action('widgets_init', 'arphabet_widgets_init');
