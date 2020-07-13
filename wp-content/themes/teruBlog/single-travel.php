@@ -1,4 +1,4 @@
-<!-- 旅行に関する投稿が表示される -->
+<!-- travelの投稿が表示される -->
 <section id="content">
   <div id="content-wrap" class="container" style="width: 70%">
     <div id="main" class="col-md-9">

@@ -1,4 +1,4 @@
- <!-- スキル関係の投稿が表示される -->
+ <!-- skillの投稿が表示される -->
  <section id="content">
    <div id="content-wrap" class="container" style="width: 70%">
      <div id="main" class="col-md-9">
