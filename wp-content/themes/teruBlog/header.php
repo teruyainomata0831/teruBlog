@@ -49,7 +49,13 @@
         <div id="nav-content">
           <a href="/teruBlog"><i class="fas fa-home"></i>Home</a><br>
           <a href="/teruBlog/category/post"><i class="fas fa-blog"></i>Post</a><br>
-          <a href="/teruBlog/category/skill"><i class="fas fa-code"></i>Skill</a><br>
+          <a href="/teruBlog/category/skill"><i class="fas fa-code"></i>Skill</a>
+          <?php
+          wp_nav_menu(array(
+            'theme_location' => 'header-menu'
+          ));
+          ?>
+          <br>
           <a href="/teruBlog/category/travel"><i class="fas fa-globe-europe"></i>Travel</a><br>
           <a href="/teruBlog/contact"><i class="fas fa-mail-bulk"></i>Contact</a>
         </div>
