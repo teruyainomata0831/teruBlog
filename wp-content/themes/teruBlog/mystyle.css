@@ -530,6 +530,11 @@ aside hr {
   padding-top: 30px;
 }
 
+#sitemap_list li,
+a {
+  color: #333;
+}
+
 @media (max-width: 960px) {
   .error p {
     padding-top: 30px;
