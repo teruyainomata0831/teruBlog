@@ -7,12 +7,7 @@ body {
   font-family: Noto, Hiragino Sans, Helvetica, Arial, sans-serif;
 }
 
-ul,
-p,
-li,
-a,
-h1,
-h2 {
+ul, p, li, a, h1, h2 {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -57,6 +52,11 @@ header {
   color: #b2b2b2;
   text-decoration: none;
   padding: 10px 15px;
+}
+
+.header_in li a:hover {
+  background-color: #eeeeee;
+  color: #fff;
 }
 
 .headertxt {
@@ -106,7 +106,7 @@ header {
 }
 
 #menu-header-menu.menu a {
-  color: #b2b2b2;
+  color: #333;
 }
 
 #menu-header-menu.menu li:last-child {
@@ -156,6 +156,10 @@ figcaption {
   height: fit-content;
 }
 
+.col-md-9 h1:hover {
+  text-decoration: underline;
+}
+
 p {
   padding-right: 40px;
   padding-left: 40px;
@@ -198,8 +202,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.alignnone,
-.wp-image-907 {
+.alignnone, .wp-image-907 {
   max-width: 100% !important;
 }
 
@@ -244,7 +247,11 @@ pre {
   color: #b2b2b2;
 }
 
-.primary-sidebar > div {
+#sidebar a:hover {
+  text-decoration: underline;
+}
+
+.primary-sidebar>div {
   background-color: #fff !important;
 }
 
@@ -278,6 +285,10 @@ hr {
   text-align: right !important;
   color: #337ab7 !important;
   text-decoration: none;
+}
+
+.user_contact a:hover {
+  text-decoration: underline;
 }
 
 .Introduction {
@@ -326,6 +337,10 @@ input {
   margin-bottom: 10px;
 }
 
+.rounded li>a {
+  text-decoration: underline !important;
+}
+
 #rpwwt-recent-posts-widget-with-thumbnails-2 img {
   width: 100% !important;
   height: 150px;
@@ -340,6 +355,10 @@ input {
 
 .rpwwt-post-title {
   color: #b2b2b2;
+}
+
+.rpwwt-post-title:hover {
+  text-decoration: underline;
 }
 
 /*フッター*/
@@ -395,11 +414,16 @@ aside hr {
   margin-left: 0;
 }
 
-.widget.widget_text > .textwidget p > a {
+.widget.widget_text>.textwidget p>a {
   line-height: 0 !important;
   padding: 0;
   margin: 0;
   color: #337ab7;
+  font-size: 12px;
+}
+
+.widget.widget_text>.textwidget p>a:hover {
+  text-decoration: underline;
 }
 
 .textwidget li {
@@ -411,6 +435,10 @@ aside hr {
   color: #b2b2b2;
   line-height: 50px;
   padding-left: 15px;
+}
+
+.textwidget a:hover {
+  text-decoration: underline;
 }
 
 .textwidget li:last-child {
@@ -476,6 +504,10 @@ aside hr {
   color: #b2b2b2;
 }
 
+#alpr:hover {
+  text-decoration: underline !important;
+}
+
 .stepback {
   margin-top: 60px;
   margin-bottom: 70px;
@@ -530,8 +562,7 @@ aside hr {
   padding-top: 30px;
 }
 
-#sitemap_list li,
-a {
+#sitemap_list li, a {
   color: #333;
 }
 
@@ -572,9 +603,7 @@ a {
     vertical-align: sub;
   }
   /*ハンバーガーアイコンをCSSだけで表現*/
-  #nav-open span,
-  #nav-open span:before,
-  #nav-open span:after {
+  #nav-open span, #nav-open span:before, #nav-open span:after {
     position: absolute;
     height: 2px;
     /*線の太さ*/
@@ -647,12 +676,12 @@ a {
     letter-spacing: 5px;
   }
   /*チェックが入ったらもろもろ表示*/
-  #nav-input:checked ~ #nav-close {
+  #nav-input:checked~#nav-close {
     display: block;
     /*カバーを表示*/
     opacity: 0.5;
   }
-  #nav-input:checked ~ #nav-content {
+  #nav-input:checked~#nav-content {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     /*中身を表示*/
@@ -691,18 +720,13 @@ a {
     width: 100%;
     padding: 0;
   }
-  .alignnone,
-  .wp-image-907,
-  .size-full,
-  .wp-image-906,
-  .aligncenter {
+  .alignnone, .wp-image-907, .size-full, .wp-image-906, .aligncenter {
     width: 100% !important;
   }
   pre {
     white-space: normal;
   }
-  .user,
-  .search {
+  .user, .search {
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -719,8 +743,7 @@ a {
     padding-left: 0;
     padding-right: 0;
   }
-  .wpcf7-form-control.wpcf7-text,
-  .wpcf7-form-control.wpcf7-textarea {
+  .wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-textarea {
     width: auto;
   }
   .wpcf7-form-control.wpcf7-submit {
