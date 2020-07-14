@@ -81,8 +81,34 @@ header {
 
 /*ドロップダウンメニュー*/
 
+#dropdown {
+  display: none;
+}
+
+.skill:hover #dropdown {
+  display: block;
+}
+
 #menu-header-menu {
   flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  position: absolute;
+  z-index: 9999;
+}
+
+#menu-header-menu.menu li {
+  border-bottom: dashed 1px #686868;
+  padding: 0;
+  line-height: 50px;
+}
+
+#menu-header-menu.menu a {
+  color: #b2b2b2;
+}
+
+#menu-header-menu.menu li:last-child {
+  border-bottom: none;
 }
 
 .caret {
