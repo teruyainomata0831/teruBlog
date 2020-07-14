@@ -1,4 +1,3 @@
-<?php add_theme_support('menus'); ?>
 <?php
 
 /**
@@ -53,3 +52,13 @@ function arphabet_widgets_init()
 	]);
 }
 add_action('widgets_init', 'arphabet_widgets_init');
+
+function register_my_menus()
+{
+	register_nav_menus(array(
+		'main-menu' => 'Main Menu',
+		'header-menu' => 'Header Menu',
+		'footer-menu'  => 'Footer Menu',
+	));
+}
+add_action('after_setup_theme', 'register_my_menus');

@@ -81,53 +81,8 @@ header {
 
 /*ドロップダウンメニュー*/
 
-.menu > li.menu__single {
-  position: relative;
-}
-
-.menu__second-level {
+#menu-header-menu {
   flex-direction: column;
-  position: absolute;
-  z-index: 9999;
-}
-
-.menu__second-level a {
-  color: #333 !important;
-}
-
-.menu__second-level li {
-  background-color: #fff;
-  border-left: 1px solid #b2b2b2;
-  border-right: 1px solid #b2b2b2;
-  border-bottom: dashed 1px #686868;
-  text-align: left;
-  padding: 0;
-  line-height: 50px;
-}
-
-.menu__second-level li:first-child {
-  border-top: 1px solid #b2b2b2;
-}
-
-.menu__second-level li:last-child {
-  border-bottom: 1px solid #b2b2b2;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-li.menu__single ul.menu__second-level {
-  position: absolute;
-  top: 40px;
-  width: 100%;
-  background: #072a24;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-
-li.menu__single:hover ul.menu__second-level {
-  top: 50px;
-  visibility: visible;
-  opacity: 1;
 }
 
 .caret {

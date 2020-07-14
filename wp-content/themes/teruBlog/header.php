@@ -24,6 +24,11 @@
           <li><a href="/teruBlog">Home</a></li>
           <li><a href="/teruBlog/category/post">Post</a></li>
           <li><a href="/teruBlog/category/skill">Skill</a>
+            <?php
+            wp_nav_menu(array(
+              'theme_location' => 'header-menu'
+            ));
+            ?>
           </li>
           <li><a href="/teruBlog/category/travel">Travel</a></li>
           <li><a href="/teruBlog/contact">Contact</a></li>
