@@ -22,7 +22,8 @@
         </div>
         <ul>
           <li><a href="/teruBlog">Home</a></li>
-          <li><a href="/teruBlog/category/post">Post</a></li>
+          <li><a href="/teruBlog/category/post">Post</a>
+          </li>
           <li class="skill"><a href="/teruBlog/category/skill">Skill</a>
             <div id="dropdown">
               <?php
