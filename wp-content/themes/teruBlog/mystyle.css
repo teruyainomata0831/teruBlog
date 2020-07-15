@@ -573,7 +573,6 @@ aside hr {
 
 @media (max-width: 960px) {
   .error p {
-    padding-top: 105px;
     text-align: center;
   }
   .header_in {
