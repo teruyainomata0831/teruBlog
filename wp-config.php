@@ -1,4 +1,5 @@
 <?php
+
 /** Enable W3 Total Cache */
 define('WP_CACHE', true); // Added by W3 Total Cache
 
@@ -29,22 +30,22 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'teruBlog' );
+define('DB_NAME', 'terubloog_wp1');
 
 /** MySQL データベースのユーザー名 */
-define( 'DB_USER', 'root' );
+define('DB_USER', 'terubloog_wp1');
 
 /** MySQL データベースのパスワード */
-define( 'DB_PASSWORD', 'root' );
+define('DB_PASSWORD', 'ynryx5s7cd');
 
 /** MySQL のホスト名 */
-define( 'DB_HOST', 'localhost' );
+define('DB_HOST', 'mysql10053.xserver.jp');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
-define( 'DB_CHARSET', 'utf8mb4' );
+define('DB_CHARSET', 'utf8mb4');
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
-define( 'DB_COLLATE', '' );
+define('DB_COLLATE', '');
 
 /**#@+
  * 認証用ユニークキー
@@ -55,14 +56,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '>Reda#~,mpsHi<C.L59a@/ 0Jk^)@m?k`{1[tb#9]y%|&k{6&X5z1pn~02sGeSUV' );
-define( 'SECURE_AUTH_KEY',  '^f+8Y3oj{.mC1I#Mc1VfJ]@/`&}oBkW|/bCxsO$)bF[#!XxU{>)oFaJf]8S-.f}8' );
-define( 'LOGGED_IN_KEY',    'MQS#9W@)-h^2aOy~Lq;M[)64=dDn}K>p-#L]l`q%5$H/TftcZ x#D^yYSw<zaqXX' );
-define( 'NONCE_KEY',        'L:i7u=S1UuJ.FszwdAA]$mFxLE}jo>Tm*Yz,AXATjMvBWf^,,|kxf}f-4M&wgk#I' );
-define( 'AUTH_SALT',        'ofo8I~N[KqFsgbUl`lUk6/Rl2S57$mz;2.A|3V=U+12FNb`*e O78Ai-lz&fD89>' );
-define( 'SECURE_AUTH_SALT', '*(jTf2.HTNac( {Y.1TdO^kPrhd VuAg6yREsk.[+Pi)2oz7)wdQ/i[%b.*Ib.}1' );
-define( 'LOGGED_IN_SALT',   'ro`rFPYLf7I^9NF,z0eB#Uu;-o&r.=Ww,6:nWOEGg3s!Sz-r!*bNW@iD9Ts*u}l0' );
-define( 'NONCE_SALT',       'ZAI2}-ZAc7wVwJ~*9ayL~{Bm/7L3iCZ$/kt8PS@gOuJ<KAr(WVPx7&(Bj{<Sxs!Y' );
+define('AUTH_KEY',         '>Reda#~,mpsHi<C.L59a@/ 0Jk^)@m?k`{1[tb#9]y%|&k{6&X5z1pn~02sGeSUV');
+define('SECURE_AUTH_KEY',  '^f+8Y3oj{.mC1I#Mc1VfJ]@/`&}oBkW|/bCxsO$)bF[#!XxU{>)oFaJf]8S-.f}8');
+define('LOGGED_IN_KEY',    'MQS#9W@)-h^2aOy~Lq;M[)64=dDn}K>p-#L]l`q%5$H/TftcZ x#D^yYSw<zaqXX');
+define('NONCE_KEY',        'L:i7u=S1UuJ.FszwdAA]$mFxLE}jo>Tm*Yz,AXATjMvBWf^,,|kxf}f-4M&wgk#I');
+define('AUTH_SALT',        'ofo8I~N[KqFsgbUl`lUk6/Rl2S57$mz;2.A|3V=U+12FNb`*e O78Ai-lz&fD89>');
+define('SECURE_AUTH_SALT', '*(jTf2.HTNac( {Y.1TdO^kPrhd VuAg6yREsk.[+Pi)2oz7)wdQ/i[%b.*Ib.}1');
+define('LOGGED_IN_SALT',   'ro`rFPYLf7I^9NF,z0eB#Uu;-o&r.=Ww,6:nWOEGg3s!Sz-r!*bNW@iD9Ts*u}l0');
+define('NONCE_SALT',       'ZAI2}-ZAc7wVwJ~*9ayL~{Bm/7L3iCZ$/kt8PS@gOuJ<KAr(WVPx7&(Bj{<Sxs!Y');
 
 /**#@-*/
 
@@ -84,13 +85,13 @@ $table_prefix = 'wp_';
  *
  * @link https://ja.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define('WP_DEBUG', false);
 
 /* 編集が必要なのはここまでです ! WordPress でのパブリッシングをお楽しみください。 */
 
 /** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+if (!defined('ABSPATH')) {
+	define('ABSPATH', __DIR__ . '/');
 }
 
 /** Sets up WordPress vars and included files. */
