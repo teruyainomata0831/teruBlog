@@ -401,7 +401,7 @@ aside p {
   color: #b2b2b2;
   padding-left: 0;
   padding-right: 0;
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 10px;
 }
 
@@ -439,6 +439,7 @@ aside hr {
   color: #b2b2b2;
   line-height: 50px;
   padding-left: 15px;
+  font-size: 13px !important;
 }
 
 .textwidget a:hover {
@@ -572,7 +573,7 @@ aside hr {
 
 @media (max-width: 960px) {
   .error p {
-    padding-top: 30px;
+    padding-top: 105px;
     text-align: center;
   }
   .header_in {
