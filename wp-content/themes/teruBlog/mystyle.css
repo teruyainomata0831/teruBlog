@@ -480,6 +480,7 @@ aside hr {
   height: 38px;
   background-color: #fff;
   border: 1px solid #ccc;
+  line-height: 0;
 }
 
 /*お問い合わせ textarea*/
@@ -489,6 +490,7 @@ aside hr {
   height: 120px;
   background-color: #fff;
   border: 1px solid #ccc;
+  line-height: 2;
 }
 
 /*お問い合わせ submit*/
@@ -744,8 +746,13 @@ aside hr {
     padding-left: 0;
     padding-right: 0;
   }
-  .wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-textarea {
+  .wpcf7-form-control.wpcf7-text {
     width: auto;
+    line-height: 0;
+  }
+  .wpcf7-form-control.wpcf7-textarea {
+    width: auto;
+    line-height: 2;
   }
   .wpcf7-form-control.wpcf7-submit {
     width: 50%;
