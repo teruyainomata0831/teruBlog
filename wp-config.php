@@ -33,7 +33,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 define('DB_NAME', 'terubloog_wp1');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'terubloog_wp1 ( sv10527.xserver.jp )');
+define('DB_USER', 'terubloog_wp1');
 
 /** MySQL データベースのパスワード */
 define('DB_PASSWORD', 'ynryx5s7cd');
