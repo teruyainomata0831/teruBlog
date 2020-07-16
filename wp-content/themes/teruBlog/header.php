@@ -21,10 +21,10 @@
           <a>teruBlog</a>
         </div>
         <ul>
-          <li><a href="/teruBlog">Home</a></li>
-          <li><a href="/teruBlog/category/post">Post</a>
+          <li><a href="/">Home</a></li>
+          <li><a href="/category/post">Post</a>
           </li>
-          <li class="skill"><a href="/teruBlog/category/skill">Skill</a>
+          <li class="skill"><a href="/category/skill">Skill</a>
             <div id="dropdown">
               <?php
               wp_nav_menu(array(
@@ -33,8 +33,8 @@
               ?>
             </div>
           </li>
-          <li><a href="/teruBlog/category/travel">Travel</a></li>
-          <li><a href="/teruBlog/contact">Contact</a></li>
+          <li><a href="/category/travel">Travel</a></li>
+          <li><a href="/contact">Contact</a></li>
           <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
         </ul>
       </div>
@@ -47,17 +47,17 @@
         <label id="nav-open" for="nav-input"><span></span></label>
         <label class="nav-unshown" id="nav-close" for="nav-input"></label>
         <div id="nav-content">
-          <a href="/teruBlog"><i class="fas fa-home"></i>Home</a><br>
-          <a href="/teruBlog/category/post"><i class="fas fa-blog"></i>Post</a><br>
-          <a href="/teruBlog/category/skill"><i class="fas fa-code"></i>Skill</a>
+          <a href="/"><i class="fas fa-home"></i>Home</a><br>
+          <a href="/category/post"><i class="fas fa-blog"></i>Post</a><br>
+          <a href="/category/skill"><i class="fas fa-code"></i>Skill</a>
           <?php
           wp_nav_menu(array(
             'theme_location' => 'header-menu'
           ));
           ?>
           <br>
-          <a href="/teruBlog/category/travel"><i class="fas fa-globe-europe"></i>Travel</a><br>
-          <a href="/teruBlog/contact"><i class="fas fa-mail-bulk"></i>Contact</a>
+          <a href="/category/travel"><i class="fas fa-globe-europe"></i>Travel</a><br>
+          <a href="/contact"><i class="fas fa-mail-bulk"></i>Contact</a>
         </div>
       </div>
     </div>
