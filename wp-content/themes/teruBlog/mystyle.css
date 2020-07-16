@@ -480,6 +480,7 @@ aside hr {
   height: 38px;
   background-color: #fff;
   border: 1px solid #ccc;
+  line-height: 0 !important;
 }
 
 /*お問い合わせ textarea*/
