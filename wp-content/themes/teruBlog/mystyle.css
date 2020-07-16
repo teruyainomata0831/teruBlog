@@ -544,6 +544,7 @@ aside hr {
   border: solid 1px #bbb;
   border-radius: 4px;
   background-color: #efefef;
+  line-height: 2;
 }
 
 .searchsubmit {
@@ -559,6 +560,7 @@ aside hr {
   color: #333;
   border: none;
   background: transparent;
+  line-height: 3.5;
 }
 
 .searchsubmit:hover {
