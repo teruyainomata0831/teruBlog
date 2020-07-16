@@ -18,7 +18,7 @@
     <div class="header_in">
       <div class="headerLeft">
         <div class="headertxt">
-          <a>teruBlog</a>
+          <a href="/">teruBlog</a>
         </div>
         <ul>
           <li><a href="/">Home</a></li>
@@ -35,7 +35,6 @@
           </li>
           <li><a href="/category/travel">Travel</a></li>
           <li><a href="/contact">Contact</a></li>
-          <!-- <li><a href="">Dropdown<span class="caret"></span></a></li> -->
         </ul>
       </div>
       <ul class="headerRight">
