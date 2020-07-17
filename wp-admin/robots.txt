@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /download
+
+User-agent: Googlebot-Image
+Sitemap: https://terublog.com/sitemap.xml
