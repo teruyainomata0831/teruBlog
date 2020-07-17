@@ -790,7 +790,7 @@ aside hr {
   .site-map {
     text-align: center;
   }
-  .site-map a {
+  .site-map a, .site-map p {
     text-align: center;
   }
 }
