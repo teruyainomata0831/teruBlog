@@ -801,4 +801,10 @@ aside hr {
     padding-bottom: 0;
     line-height: 2;
   }
+  .site-map {
+    text-align: center;
+  }
+  .site-map a, .site-map p {
+    text-align: center;
+  }
 }
