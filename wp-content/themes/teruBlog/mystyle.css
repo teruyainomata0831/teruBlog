@@ -575,6 +575,13 @@ aside hr {
   color: #333;
 }
 
+.site-map {
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+  background: #eee;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
