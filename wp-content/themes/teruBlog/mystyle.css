@@ -579,7 +579,6 @@ aside hr {
   text-align: left;
   margin: 0 auto;
   display: inline-block;
-  background: #eee;
 }
 
 @media (max-width: 960px) {
