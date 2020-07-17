@@ -581,10 +581,6 @@ aside hr {
   display: inline-block;
 }
 
-.site-map h2 {
-  background: #eeeeee;
-}
-
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
