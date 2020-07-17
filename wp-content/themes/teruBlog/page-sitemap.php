@@ -14,7 +14,6 @@
           <section>
             <?php the_content(); ?>
             <div class="site-map">
-              <p><a href="<?php echo home_url(); ?>">TOPページ</a></p>
               <?php
                 $args=array(
                   'orderby' => 'name',
