@@ -788,10 +788,10 @@ aside hr {
     font-size: 15px;
   }
   .site-map {
-    text-align: center;
+    text-align: center !important;
   }
   .site-map a, .site-map p {
-    text-align: center;
+    text-align: center !important;
   }
 }
 
