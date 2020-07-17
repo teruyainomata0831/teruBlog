@@ -787,6 +787,9 @@ aside hr {
   #menu-header-menu-1 a {
     font-size: 15px;
   }
+  .sitemap {
+    text-align: center;
+  }
 }
 
 @media (max-width: 320px) {
