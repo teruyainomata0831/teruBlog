@@ -585,11 +585,6 @@ aside hr {
   display: inline-block;
 }
 
-.breadcrumb {
-  display: inline-block;
-  padding: 40px 25px;
-}
-
 .at-share-btn-elements {
   text-align: center;
 }
@@ -808,10 +803,6 @@ aside hr {
   }
   .site-map a, .site-map p {
     text-align: center !important;
-  }
-  .breadcrumb {
-    display: inline-block;
-    padding: 10px;
   }
 }
 
