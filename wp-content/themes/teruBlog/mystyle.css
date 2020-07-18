@@ -580,9 +580,17 @@ aside hr {
 }
 
 .site-map {
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
   display: inline-block;
+}
+
+.site-map p {
+  text-align: center;
+}
+
+.site-map h1 {
+  text-align: center;
 }
 
 .at-share-btn-elements {
