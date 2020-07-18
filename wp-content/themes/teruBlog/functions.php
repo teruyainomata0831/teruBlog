@@ -65,7 +65,7 @@ add_action('after_setup_theme', 'register_my_menus');
 
 function mytheme_breadcrumb() {
 	$sep = '>';
-	echo '<div class="breadcrumb"><li><a href="'.get_bloginfo('url').'" >Home</a></li></div>';
+	echo '<li class="breadcrumb"><a href="'.get_bloginfo('url').'" >Home</a></li>';
 	echo $sep;
 
 	$cats = '';
@@ -86,7 +86,7 @@ function mytheme_breadcrumb() {
 		$cat_id = $cat->parent;
 	}
 	foreach($cat_list as $value){
-		echo '<div class="breadcrumb"><li>'.$value.'</li></div>';
+		echo '<li class="breadcrumb">'.$value.'</li>';
 		echo $sep;
 	}
 
@@ -95,9 +95,9 @@ function mytheme_breadcrumb() {
 			previous_post_link( '<li>%link</li>' );
 			echo $sep;
 		}
-		the_title( '<div class="breadcrumb"><li>', '</li></div>' );
+		the_title( '<li class="breadcrumb">', '</li>' );
 	}
-	else if( is_archive() ) the_archive_title( '<div class="breadcrumb"><li>', '</li></div>' );
-	else if( is_search() ) echo '<div class="breadcrumb"><li>検索 : '.get_search_query().'</li></div>';
-	else if( is_404() ) echo '<div class="breadcrumb"><li>ページが見つかりません</li></div>';
+	else if( is_archive() ) the_archive_title( '<li class="breadcrumb">', '</li>' );
+	else if( is_search() ) echo '<li class="breadcrumb">検索 : '.get_search_query().'</li>';
+	else if( is_404() ) echo '<li  class="breadcrumb">ページが見つかりません</li>';
 }
