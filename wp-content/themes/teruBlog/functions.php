@@ -65,7 +65,7 @@ add_action('after_setup_theme', 'register_my_menus');
 
 function mytheme_breadcrumb() {
 	$sep = '>';
-	echo '<li class="breadcrumb"><a href="'.get_bloginfo('url').'" >Home</a></li>';
+	echo '<div><li class="breadcrumb"><a href="'.get_bloginfo('url').'" >Home</a></li></div>';
 	echo $sep;
 
 	$cats = '';
