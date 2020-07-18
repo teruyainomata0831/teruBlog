@@ -1,3 +1,4 @@
+<?php breadcrumb(); ?>
 <?php
 $post = $wp_query->post;
 if (in_category('post')) {
