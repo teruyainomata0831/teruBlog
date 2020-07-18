@@ -160,10 +160,6 @@ figcaption {
   height: fit-content;
 }
 
-.col-md-9 .site-map {
-  text-align: center;
-}
-
 .col-md-9 h1 {
   text-align: center;
 }
@@ -587,6 +583,10 @@ aside hr {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
+}
+
+.site-map section {
+  text-align: center;
 }
 
 .site-map p {
