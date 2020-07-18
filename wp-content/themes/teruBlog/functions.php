@@ -82,7 +82,7 @@ function mytheme_breadcrumb() {
 	while ($cat_id != 0){
 		$cat = get_category( $cat_id );
 		$cat_link = get_category_link( $cat_id );
-		array_unshift( $cat_list, '<a href="'.$cat_link.'">'.$cat->name.'</a>' );
+		array_unshift( $cat_list, '<div class="breadcrumb"><a href="'.$cat_link.'">'.$cat->name.'</a></div>' );
 		$cat_id = $cat->parent;
 	}
 	foreach($cat_list as $value){
