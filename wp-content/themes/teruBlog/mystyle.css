@@ -809,6 +809,10 @@ aside hr {
   .site-map a, .site-map p {
     text-align: center !important;
   }
+  .breadcrumb {
+    display: inline-block;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 320px) {
