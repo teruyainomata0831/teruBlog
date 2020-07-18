@@ -581,10 +581,6 @@ aside hr {
   display: inline-block;
 }
 
-.breadcrumb {
-  display: flex;
-}
-
 .breadcrumb li {
   display: inline-block;
 }
