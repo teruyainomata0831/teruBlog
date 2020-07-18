@@ -584,7 +584,7 @@ aside hr {
 .breadcrumb {
   display: inline-block;
   padding: 20px;
-  text-align: left;
+  margin-left: auto;
 }
 
 @media (max-width: 960px) {
