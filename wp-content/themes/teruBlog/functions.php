@@ -94,7 +94,7 @@ $str.='<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" style="di
 									$str.='<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" style="display:table-cell;"><a href="'. get_category_link($ancestor).'" itemprop="url"><span itemprop="title">'. get_cat_name($ancestor). '</span></a>→</div>';
 							}
 					}
-					$str.='<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" style="display:table-cell;"><a href="'. get_category_link($cat -> term_id). '" itemprop="url"><span itemprop="title"'. $cat-> cat_name . '</span></a> &gt;&#160;</div>';
+					$str.='<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" style="display:table-cell;"><a href="'. get_category_link($cat -> term_id). '" itemprop="url"><span itemprop="title">'. $cat-> cat_name . '</span></a> &gt;&#160;</div>';
 			} else{
 					$str.='<div>'. wp_title('', false) .'</div>';
 			}
