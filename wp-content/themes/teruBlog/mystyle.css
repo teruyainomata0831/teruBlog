@@ -581,10 +581,6 @@ aside hr {
   display: inline-block;
 }
 
-#breadcrumb {
-  padding: 20px;
-}
-
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
@@ -797,9 +793,6 @@ aside hr {
   .site-map a, .site-map p {
     text-align: center !important;
   }
-  #breadcrumb {
-    padding: 20px;
-}
 }
 
 @media (max-width: 320px) {

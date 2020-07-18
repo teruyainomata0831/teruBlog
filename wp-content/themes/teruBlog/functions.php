@@ -65,7 +65,7 @@ add_action('after_setup_theme', 'register_my_menus');
 
 function mytheme_breadcrumb() {
 	$sep = '>';
-	echo '<li><a href="'.get_bloginfo('url').'" >Home</a></li>';
+	echo '<li class="breadcrumb"><a href="'.get_bloginfo('url').'" >Home</a></li>';
 	echo $sep;
 
 	$cats = '';
@@ -86,7 +86,7 @@ function mytheme_breadcrumb() {
 		$cat_id = $cat->parent;
 	}
 	foreach($cat_list as $value){
-		echo '<li>'.$value.'</li>';
+		echo '<li class="breadcrumb">'.$value.'</li>';
 		echo $sep;
 	}
 
@@ -95,9 +95,9 @@ function mytheme_breadcrumb() {
 			previous_post_link( '<li>%link</li>' );
 			echo $sep;
 		}
-		the_title( '<li>', '</li>' );
+		the_title( '<li class="breadcrumb">', '</li>' );
 	}
-	else if( is_archive() ) the_archive_title( '<li>', '</li>' );
-	else if( is_search() ) echo '<li>検索 : '.get_search_query().'</li>';
-	else if( is_404() ) echo '<li>ページが見つかりません</li>';
+	else if( is_archive() ) the_archive_title( '<li class="breadcrumb">', '</li>' );
+	else if( is_search() ) echo '<li class="breadcrumb">検索 : '.get_search_query().'</li>';
+	else if( is_404() ) echo '<li class="breadcrumb">ページが見つかりません</li>';
 }
