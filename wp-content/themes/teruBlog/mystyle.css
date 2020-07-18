@@ -590,6 +590,10 @@ aside hr {
   padding: 20px 10px;
 }
 
+.at-share-btn-elements {
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
