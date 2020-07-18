@@ -2,6 +2,7 @@
  <section id="content">
    <div id="content-wrap" class="container" style="width: 70%">
      <div id="main" class="col-md-9">
+     <?php breadcrumb(); ?>
        <?php
         if (have_posts()) :
           while (have_posts()) : the_post();
