@@ -581,9 +581,10 @@ aside hr {
   display: inline-block;
 }
 
-.breadcrumb {
+.col-md-9 .breadcrumb {
   display: inline-block;
   padding: 20px 10px;
+  text-align: left;
 }
 
 @media (max-width: 960px) {
