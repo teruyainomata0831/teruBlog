@@ -153,11 +153,15 @@ figcaption {
   background: #fff;
   margin-top: 50px;
   margin-right: 0 !important;
-  text-align: center;
+  text-align: left;
   padding: 0;
   padding-bottom: 70px;
   /* width: 70%; */
   height: fit-content;
+}
+
+.col-md-9 h1 {
+  text-align: center;
 }
 
 .col-md-9 h1:hover {
@@ -581,7 +585,7 @@ aside hr {
   display: inline-block;
 }
 
-.col-md-9 .breadcrumb {
+.breadcrumb {
   display: inline-block;
   padding: 20px 10px;
 }
