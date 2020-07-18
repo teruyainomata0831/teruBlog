@@ -581,6 +581,10 @@ aside hr {
   display: inline-block;
 }
 
+.breadcrumb {
+  display: flex;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
