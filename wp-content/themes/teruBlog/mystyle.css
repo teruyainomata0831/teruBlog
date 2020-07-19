@@ -832,6 +832,9 @@ aside hr {
   .site-map a, .site-map p {
     text-align: center !important;
   }
+  #breadcrumbs ul li {
+    display: block;
+  }
 }
 
 @media (max-width: 320px) {
