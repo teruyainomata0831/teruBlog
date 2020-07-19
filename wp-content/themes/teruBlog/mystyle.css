@@ -617,6 +617,39 @@ aside hr {
 	vertical-align: top;
 }
 
+#related-entries h3{
+  font-size:24px;
+}
+ 
+#related-entries .related-entry{
+  line-height:150%;
+  margin-bottom:20px;
+  clear: both;
+}
+ 
+#related-entries .related-entry-thumb {
+  float: left;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+ 
+#related-entries .related-entry-content {
+  margin-left: 120px;
+}
+ 
+.related-entry-title{
+    margin-bottom:5px;
+}
+ 
+.related-entry-snippet{
+  margin:0 0 5px 0;
+}
+ 
+.related-entry-read{
+  margin:0;
+  font-size:12px;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
