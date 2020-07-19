@@ -617,8 +617,14 @@ aside hr {
 	vertical-align: top;
 }
 
+#related-entries {
+  text-align: center;
+  background-color: #fff;
+}
+
 #related-entries h3{
   font-size:24px;
+  padding-top: 60px;
 }
  
 #related-entries .related-entry{
