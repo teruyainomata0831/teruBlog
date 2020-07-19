@@ -617,10 +617,6 @@ aside hr {
 	vertical-align: top;
 }
 
-#breadcrumbs ul li:last-child {
-	word-break: break-all;
-}
-
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
@@ -835,6 +831,10 @@ aside hr {
   }
   .site-map a, .site-map p {
     text-align: center !important;
+  }
+  #breadcrumbs ul li {
+    font-size: 15px;
+    padding-left: 30px;
   }
 }
 
