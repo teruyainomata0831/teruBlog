@@ -834,6 +834,7 @@ aside hr {
   }
   #breadcrumbs ul {
     padding-right: 0;
+    width: 100%;
   }
   #breadcrumbs ul li {
     display: block;
