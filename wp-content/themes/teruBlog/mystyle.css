@@ -607,7 +607,9 @@ aside hr {
 #breadcrumbs ul {
 	width: 100%;
 	font-size: 1.2rem;
-	text-align: left;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-top: 30px;
 }
 
 #breadcrumbs ul li {
