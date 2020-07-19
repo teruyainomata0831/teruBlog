@@ -35,6 +35,10 @@
   </div>
   <?php get_sidebar(); ?>
 </section>
+<div id="related-entries">
+  <h3>関連記事</h3>
+  <?php include( TEMPLATEPATH . '/related-entries.php' ); ?>
+</div>
 <aside>
   <div class="footerBox">
     <ul><?php dynamic_sidebar('フッターウィジェット１'); ?></ul>
