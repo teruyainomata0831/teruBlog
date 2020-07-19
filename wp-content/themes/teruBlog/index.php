@@ -33,6 +33,10 @@
       <?php endif; ?>
     </div>
   </div>
+  <div id="related-entries">
+  <h3>関連記事</h3>
+  <?php include( TEMPLATEPATH . '/related-entries.php' ); ?>
+</div>
   <?php get_sidebar(); ?>
 </section>
 <aside>

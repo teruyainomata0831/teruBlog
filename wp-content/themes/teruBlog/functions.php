@@ -276,3 +276,6 @@ function get_youngest_tax( $taxes, $mytaxonomy ){
 	}
 	return $youngest;
 }
+
+add_theme_support('post-thumbnails');
+add_image_size('thumb100',100,100,true);
