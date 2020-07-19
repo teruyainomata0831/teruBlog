@@ -617,46 +617,6 @@ aside hr {
 	vertical-align: top;
 }
 
-#related-entries {
-  text-align: center;
-  background-color: #fff;
-}
-
-#related-entries h3{
-  font-size:24px;
-  padding-top: 60px;
-}
- 
-#related-entries .related-entry{
-  line-height:150%;
-  margin-bottom:20px;
-  clear: both;
-}
- 
-#related-entries .related-entry-thumb {
-  float: left;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-}
- 
-#related-entries .related-entry-content {
-  margin: 0 auto;
-  text-align: center;
-}
- 
-.related-entry-title{
-    margin-bottom:5px;
-}
- 
-.related-entry-snippet{
-  margin:0 0 5px 0;
-}
- 
-.related-entry-read{
-  margin:0;
-  font-size:12px;
-}
-
 @media (max-width: 960px) {
   .header_in {
     width: 100%;

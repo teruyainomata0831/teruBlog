@@ -23,10 +23,6 @@
       endif;
       ?>
     </div>
-    <div id="related-entries">
-      <h3>関連記事</h3>
-      <?php include( TEMPLATEPATH . '/related-entries.php' ); ?>
-    </div>
     <div class="stepback">
       <?php if (get_previous_post()) : ?>
         <?php previous_post_link('%link', '&laquo; 前の記事へ', true); ?>
