@@ -604,19 +604,6 @@ aside hr {
   text-align: center;
 }
 
-#breadcrumbs ul {
-	width: 100%;
-	font-size: 13px;
-  text-align: left;
-  margin-bottom: 0px;
-  padding-top: 30px;
-}
-
-#breadcrumbs ul li {
-	display: inline-block;
-	vertical-align: top;
-}
-
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
@@ -831,14 +818,6 @@ aside hr {
   }
   .site-map a, .site-map p {
     text-align: center !important;
-  }
-  #breadcrumbs ul {
-    padding-right: 0;
-    width: 100%;
-  }
-  #breadcrumbs ul li {
-    display: block;
-    width: 100%;
   }
 }
 
