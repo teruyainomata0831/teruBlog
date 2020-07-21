@@ -4,7 +4,7 @@
     <img class="user_img" src="/wp-admin/images/user_img.jpg" alt="猪股輝哉のプロフィール画像">
     <h4 class="user_name">猪股輝哉</h4>
     <hr>
-    <p class="Introduction">1999年11月17日 奈良県出身 2019年10月TECH::EXPERT受講→Web制作会社 現在2社目 投資・読書が最高に好きです！</p>
+    <p class="Introduction">1999年11月17日 奈良県出身 一生勉強!!</p>
     <div class="user_contact">
       <a class="user_contact" href="/profile-details/">プロフィール詳細<i class="fa fa-angle-right"></i></a><br>
       <a class="user_contact" href="/web_request/">Web制作依頼の詳細<i class="fa fa-angle-right"></i></a><br>
