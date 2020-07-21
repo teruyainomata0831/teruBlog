@@ -49,13 +49,7 @@
         <div id="nav-content">
           <a href="/"><i class="fas fa-home"></i>Home</a><br>
           <a href="/category/post"><i class="fas fa-blog"></i>Post</a><br>
-          <a href="/category/skill"><i class="fas fa-code"></i>Skill</a>
-          <?php
-          wp_nav_menu(array(
-            'theme_location' => 'header-menu'
-          ));
-          ?>
-          <br>
+          <a href="/category/skill"><i class="fas fa-code"></i>Skill</a><br>
           <a href="/category/travel"><i class="fas fa-globe-europe"></i>Travel</a><br>
           <a href="/contact"><i class="fas fa-mail-bulk"></i>Contact</a>
         </div>
