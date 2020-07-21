@@ -3,8 +3,7 @@
 <section id="content">
   <div id="content-wrap" class="container" style="width: 70%">
     <div id="main" class="col-md-9">
-    </div>
-    <?php
+      <?php
       if (have_posts()) :
         while (have_posts()) : the_post();
       ?>
@@ -23,6 +22,7 @@
       <?php
       endif;
       ?>
+    </div>
     <div class="stepback">
       <?php if (get_previous_post()) : ?>
         <?php previous_post_link('%link', '&laquo; 前の記事へ', true); ?>
