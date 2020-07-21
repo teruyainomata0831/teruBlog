@@ -606,6 +606,12 @@ aside hr {
   text-align: center;
 }
 
+.col-md-9 .more-link {
+  border: 1px solid #909090;
+  color: #7B7B7B;
+  padding: 15px 33px 14px;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
