@@ -1,7 +1,7 @@
 <!-- sidebar -->
 <div id="sidebar" class="col-md-3">
   <div class="user">
-    <img class="user_img" src="wp-admin/images/hands-600497_1280.webp" alt="猪股輝哉のプロフィール画像">
+    <img class="user_img" src="/wp-admin/images/ocean-1944724_1280.jpg" alt="猪股輝哉のプロフィール画像">
     <h4 class="user_name">猪股輝哉</h4>
     <hr>
     <p class="Introduction">1999年11月17日 奈良県出身 一生勉強!!</p>
