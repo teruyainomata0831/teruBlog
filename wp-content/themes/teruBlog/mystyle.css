@@ -771,7 +771,8 @@ aside hr {
     padding: 0;
   }
   .alignnone, .wp-image-907, .size-full, .wp-image-906, .aligncenter {
-    width: 100% !important;
+    width: 100%;
+    height: auto;
   }
   pre {
     white-space: normal;
