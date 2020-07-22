@@ -593,12 +593,29 @@ aside hr {
   text-align: center;
 }
 
+.site-map h2 > a {
+  color: #7b7b7b;
+}
+
+.site-map a {
+  color: #b2b2b2;
+}
+
+
 .site-map p {
   text-align: left;
 }
 
 .site-map h1 {
   text-align: center;
+}
+
+.site-map h2 {
+  width: 80%;
+  padding: 0.1em 0.5em;
+  border-left: solid 10px #0091ff;
+  color: #0091ff;
+  font-size: 150%;
 }
 
 .at-share-btn-elements {
@@ -822,6 +839,17 @@ aside hr {
   }
   .site-map a, .site-map p {
     text-align: left;
+    color: #b2b2b2;
+  }
+  .site-map h2 {
+    width: 80%;
+    padding: 0.1em 0.5em;
+    border-left: solid 10px #0091ff;
+    color: #0091ff;
+    font-size: 150%;
+  }
+  .site-map h2 > a {
+    color: #7b7b7b;
   }
   .col-md-9 .more-link {
     width: 30%;
@@ -839,6 +867,17 @@ aside hr {
   }
   .site-map a, .site-map p {
     text-align: left;
+    color: #b2b2b2;
+  }
+  .site-map h2 {
+    width: 80%;
+    padding: 0.1em 0.5em;
+    border-left: solid 10px #0091ff;
+    color: #0091ff;
+    font-size: 150%;
+  }
+  .site-map h2 > a {
+    color: #7b7b7b;
   }
   .col-md-9 .more-link {
     width: 34%;
