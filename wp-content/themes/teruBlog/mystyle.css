@@ -633,6 +633,10 @@ aside hr {
   text-align: center;
 }
 
+code ol {
+  text-align: left;
+}
+
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
