@@ -208,7 +208,8 @@ p {
 
 .wp-block-image img {
   display: inline-block;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
 }
