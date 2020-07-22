@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/mystyle.css">
+  <script data-ad-client="ca-pub-5469864644774359" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <?php custom_seo_meta();?>
   <?php wp_head(); ?>
 </head>
