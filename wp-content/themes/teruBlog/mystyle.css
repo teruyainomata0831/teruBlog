@@ -855,6 +855,9 @@ code ol {
   .col-md-9 .more-link {
     width: 30%;
   }
+  img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
@@ -883,10 +886,16 @@ code ol {
   .col-md-9 .more-link {
     width: 34%;
   }
+  img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 280px) {
   .col-md-9 .more-link {
     width: 41%;
+  }
+  img {
+    max-width: 100%;
   }
 }
