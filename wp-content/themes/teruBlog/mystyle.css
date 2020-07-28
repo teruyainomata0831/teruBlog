@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #eeeeee;
+  background-color: #F8F8FF;
   font-family: Noto, Hiragino Sans, Helvetica, Arial, sans-serif;
 }
 
@@ -160,7 +160,7 @@ figcaption {
 
 .col-md-9 section {
   text-align: center;
-  border-bottom: 50px solid #eee;
+  border-bottom: 50px solid #F8F8FF;
   padding-bottom: 70px;
 }
 
