@@ -325,6 +325,11 @@ input {
   border: 1px solid #ebebeb;
 }
 
+.wpcf7-list-item.first.last input {
+  height: auto;
+  margin-top: 30px;
+}
+
 .search {
   background-color: #fff;
   position: relative;
