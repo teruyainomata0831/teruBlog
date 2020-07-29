@@ -75,6 +75,10 @@ header {
   color: #b2b2b2;
 }
 
+.headertxt a:hover {
+  color: #fff;
+}
+
 .headerLeft {
   display: flex;
 }
