@@ -645,17 +645,6 @@ code ol {
   text-align: left;
 }
 
-/*記事投稿css*/
-h2.posth2  {
-  background: #f7f7f7; 
-  border-left: 9px solid #4865b2;
-  padding: 20px 18px; 
-  color: #333; 
-  text-align: left;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
 @media (max-width: 960px) {
   .header_in {
     width: 100%;
