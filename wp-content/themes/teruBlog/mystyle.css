@@ -936,6 +936,73 @@ code ol {
   img {
     max-width: 100%;
   }
+  /*記事投稿*/
+
+.myh2 {
+  background: #f7f7f7;
+  padding: 20px 15px 18px;
+  color: #333;
+  border-left: 9px solid #4865b2;
+  line-height: 40px;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.myh3 {
+  letter-spacing: 1.6px;
+  padding: 0px 15px 0px;
+  border-left: 9px solid #4865b2;
+  color: #333;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.myul {
+  background-color: #f8f9ff;
+  border: dashed 1px #4865b2;
+  margin-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 36px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.mypre {
+  font-size: 16px;
+  padding: 20px;
+  background-color: #fafafa;
+  outline: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  text-align: left;
+  margin: 40px;
+  margin-bottom: 60px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.midasipre {
+  font-size: 16px;
+  padding: 20px;
+  background-color: #fafafa;
+  outline: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  text-align: left;
+  margin: 40px;
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
 }
 
 @media (max-width: 320px) {
@@ -967,6 +1034,73 @@ code ol {
   img {
     max-width: 100%;
   }
+  /*記事投稿*/
+
+.myh2 {
+  background: #f7f7f7;
+  padding: 20px 15px 18px;
+  color: #333;
+  border-left: 9px solid #4865b2;
+  line-height: 40px;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.myh3 {
+  letter-spacing: 1.6px;
+  padding: 0px 15px 0px;
+  border-left: 9px solid #4865b2;
+  color: #333;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.myul {
+  background-color: #f8f9ff;
+  border: dashed 1px #4865b2;
+  margin-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 36px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.mypre {
+  font-size: 16px;
+  padding: 20px;
+  background-color: #fafafa;
+  outline: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  text-align: left;
+  margin: 40px;
+  margin-bottom: 60px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.midasipre {
+  font-size: 16px;
+  padding: 20px;
+  background-color: #fafafa;
+  outline: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  text-align: left;
+  margin: 40px;
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
 }
 
 @media (max-width: 280px) {
@@ -976,4 +1110,71 @@ code ol {
   img {
     max-width: 100%;
   }
+  /*記事投稿*/
+
+.myh2 {
+  background: #f7f7f7;
+  padding: 20px 15px 18px;
+  color: #333;
+  border-left: 9px solid #4865b2;
+  line-height: 40px;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.myh3 {
+  letter-spacing: 1.6px;
+  padding: 0px 15px 0px;
+  border-left: 9px solid #4865b2;
+  color: #333;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.myul {
+  background-color: #f8f9ff;
+  border: dashed 1px #4865b2;
+  margin-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 36px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.mypre {
+  font-size: 16px;
+  padding: 20px;
+  background-color: #fafafa;
+  outline: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  text-align: left;
+  margin: 40px;
+  margin-bottom: 60px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.midasipre {
+  font-size: 16px;
+  padding: 20px;
+  background-color: #fafafa;
+  outline: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  text-align: left;
+  margin: 40px;
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
 }
