@@ -588,7 +588,7 @@ aside hr {
 
 .site-map {
   text-align: left;
-  margin: 0 auto;
+  padding-left: 70px;
   display: inline-block;
 }
 
