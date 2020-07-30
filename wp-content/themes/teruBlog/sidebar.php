@@ -4,11 +4,11 @@
     <img class="user_img" src="/wp-admin/images/inomata.jpg" alt="猪股輝哉のプロフィール画像">
     <h4 class="user_name">猪股輝哉</h4>
     <hr>
-    <p class="Introduction">1999年11月17日 奈良県出身 エンジニア</p>
+    <p class="Introduction">1999年11月17日 奈良県出身</p>
     <div class="user_contact">
       <a class="user_contact" href="/profile-details/">プロフィール詳細<i class="fa fa-angle-right"></i></a><br>
-      <a class="user_contact" href="/web_request/">Web制作依頼の詳細<i class="fa fa-angle-right"></i></a><br>
-      <a class="user_contact" href="/writing/writing_request/">ライティング依頼の詳細<i class="fa fa-angle-right"></i></a><br>
+      <!-- <a class="user_contact" href="/web_request/">Web制作依頼の詳細<i class="fa fa-angle-right"></i></a><br>
+      <a class="user_contact" href="/writing/writing_request/">ライティング依頼の詳細<i class="fa fa-angle-right"></i></a><br> -->
       <a class="user_contact" href="/teruBlog/contact">お問い合わせ<i class="fa fa-angle-right"></i></a>
     </div>
   </div>
