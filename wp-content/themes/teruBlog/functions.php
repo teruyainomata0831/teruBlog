@@ -121,3 +121,16 @@ function get_youngest_tax( $taxes, $mytaxonomy ){
 
 add_theme_support('post-thumbnails');
 add_image_size('thumb100',100,100,true);
+
+function add_my_quicktag() {
+	?>
+	<script type="text/javascript">
+	QTags.addButton('h2', 'h2', '<h2 class="myh2">', '</h2>');
+	QTags.addButton('h3', 'h3', '<h3 class=""myh3>', '</h3>');
+	QTags.addButton('myul', 'myul', '<ul class="myul">', '</ul>');
+	QTags.addButton('div', 'div', '<div class="waku-blue-dashed">', '</div>');
+	QTags.addButton('div', 'div', '<div class="waku-gray-border">', '</div>');
+	</script>
+	<?php
+}
+add_action('admin_print_footer_scripts', 'add_my_quicktag');
