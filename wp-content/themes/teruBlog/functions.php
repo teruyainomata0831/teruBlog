@@ -130,9 +130,11 @@ function add_my_quicktag() {
 	QTags.addButton('myh4', 'myh4', '<h4 class="myh4">', '</h4>');
 	QTags.addButton('waku-blue-dashed', 'waku-blue-dashed', '<ul class="waku-blue-dashed">', '</ul>');
 	QTags.addButton('waku-gray-border', 'waku-gray-border', '<div class="waku-gray-border">', '</div>');
+	QTags.addButton('important', 'important', '<span class="important">', '</span>');
 	QTags.addButton('ymarker', 'ymarker', '<span class="ymarker">', '</span>');
 	QTags.addButton('rmarker', 'rmarker', '<span class="rmarker">', '</span>');
 	</script>
 	<?php
 }
 add_action('admin_print_footer_scripts', 'add_my_quicktag');
+

@@ -736,6 +736,14 @@ code ol {
   background: #fff9c4 !important;
 }
 
+.important {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
 #rpwwt-recent-posts-widget-with-thumbnails-2 img {
   height: 150px !important;
   border: 1px solid #EBEBEB !important;
